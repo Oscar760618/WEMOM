@@ -1,0 +1,1 @@
+To obtain latent feature of texts
