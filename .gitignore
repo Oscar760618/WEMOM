@@ -75,6 +75,8 @@ yarn-error.log*
 # Editor & OS
 # =======================
 .vscode/
+*.code-workspace
+.vscode/
 .idea/
 *.suo
 *.ntvs*
