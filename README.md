@@ -37,7 +37,6 @@ cd WEMOM_V1
 
 # Install required python packages
 pip install torch numpy fastapi uvicorn mido pydub 
-# (You may need to freeze a requirements.txt later)
 ```
 
 ### 3. Frontend Setup
