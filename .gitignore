@@ -1,0 +1,87 @@
+# =======================
+# Python & Environment
+# =======================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =======================
+# Frontend & Node
+# =======================
+*node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*/frontend/dist/
+*/frontend/build/
+
+# =======================
+# Project Specific (Data & Weights)
+# =======================
+# Ignore all MIDI data and datasets
+**/Data/All_Data/*.npy
+**/Data/Mus_dataset/*.mid
+**/Data/Saves/
+**/Data/Text_dataset/
+
+# Ignore Model Weights and params
+**/params/
+**/Samples/
+
+# Ignore Generated outputs
+**/generated_midis/
+
+# Ignore SoundFonts (Large files)
+*.sf2
+**/FluidR3_GM/FluidR3_GM.sf2
+**/EmoMusic/FluidR3_GM.sf2
+
+# FluidSynth binaries (if downloaded locally)
+**/fluidsynth-*/
+
+# Logs
+**/Interface/*.txt
+**/Text_Prediction/*.txt
+
+# =======================
+# Editor & OS
+# =======================
+.vscode/
+*.code-workspace
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
